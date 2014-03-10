@@ -3,7 +3,7 @@ py-fritz-monitor
 
 Python class to read the provided data by fritzbox call monitor on port 1012
 
-=== How I use it ===
+===How I use it===
 I created the class to detect incoming and outgoing calls for my home automation system. If any audio playback is running, it is automatically paused, if there are incoming or outgoing calls. After ending a call the music continues. You can find a lot of articles about it on my blog http://www.blog.smartnoob.de/ (german only).
 
 === Troubleshooting ===
