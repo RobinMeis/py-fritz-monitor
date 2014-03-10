@@ -14,7 +14,7 @@ If you run py-fritz-monitor the first time, you might have to enable the call mo
 Complete with the green call button
 
 Dont't worry, you can it disable the call monitor at any time you want. Just type:
-#96*4*
+\#96*4*
 Complete again with the green call button
 
 If your fritzbox's hostname is different from fritz.box you can define it when you initialize a new instance of callmonitor class. Normally you use
