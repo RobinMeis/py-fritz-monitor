@@ -24,8 +24,8 @@ call = callmonitor(hostname[str], port[int])
 
 Examples
 ================
-In the fritzbox.py file, there are some examples at the end. You might use them to make a dry try with your own application if you don't want to call yourself again and again. By adding some sleep() commands you could simulate a real call. Anyway, you should remove or uncomment these lines in productive use.
-The examples still work when you are connected to your fritzbox so there is a need to remove them!
+In the example.py file, there are some examples at the end. You might use them to make a dry try with your own application if you don't want to call yourself again and again. By adding some sleep() commands you could simulate a real call. Anyway, you should remove or uncomment these lines in productive use.
+The examples still work when you are connected to your fritzbox so it is required to remove these lines!
 
 Callbacks
 ================
