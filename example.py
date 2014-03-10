@@ -24,10 +24,12 @@ call.register_callback ("my_cb") #Defines a function which is called if any chan
 call.connect()
 
 #Some examples, remove in productive usage!
-#call.parse("09.03.14 21:51:56;CALL;0;12;909524;015234508223;SIP0;") #Simulates outgoing call
-#call.parse("09.03.14 18:20:59;RING;0;015234508223;904980;SIP0;") #Simmulates incoming call (choose between CALL and RING!)
-#call.parse("09.03.14 21:52:06;CONNECT;0;12;015234508223;") #Simulates an accepted call
-#call.parse("09.03.14 21:52:06;DISCONNECT;0;12;015234508223;") #Simulates an ended call
+#call.parse("09.03.14 21:51:56;CALL;0;12;453423;04829401845;SIP0;") #Simulates outgoing call
+#call.parse("09.03.14 18:20:59;RING;0;04829401845;453423;SIP0;") #Simmulates incoming call (choose between CALL and RING!)
+#call.parse("09.03.14 21:52:06;CONNECT;0;12;04829401845;") #Simulates an accepted call
+#call.parse("09.03.14 21:52:06;DISCONNECT;0;12;04829401845;") #Simulates an ended call
+
+#Please note: Phone numbers are fictional. Don't call them!
 
 input ("Press key to exit\n")
 call.disconnect()
