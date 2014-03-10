@@ -13,7 +13,7 @@ If you run py-fritz-monitor the first time, you might have to enable the call mo
 ♯96*5*
 Complete with the green call button
 
-Dont't worry, you can it disable the call monitor at any time you want. Just type:
+Dont't worry, you can easily disable the call monitor at any time you want. Just type:
 ♯96*4*
 Complete again with the green call button
 
