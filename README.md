@@ -30,11 +30,11 @@ The examples still work when you are connected to your fritzbox so it is require
 Callbacks
 ================
 The class also provides a callback function. Please note that only one callback can be enabled at the same time. It is not possible to call multiple functions using the integrated callback handler. By default the callback handler is disabled. You can enable it with:
-call.register_callback ("my_cb")
+call.register_callback (my_cb)
 Replace my_cb with your function name. To disable the callback, you use
 call.register_callback (-1)
-
-Currently it is not possible to call functions of class instances. If you found some modifications which work with both, please inform me via GitHub
+If you want to use a function of a class instance use
+call.register_callback (my_instance.my_cb)
 
 Example code
 ================

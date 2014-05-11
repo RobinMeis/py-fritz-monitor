@@ -1,6 +1,6 @@
 #############################################################################
 #                             py-fritz-monitor                              #
-#                               Version 1.0                                 #
+#                               Version 1.0.1                               #
 #                                                                           #
 # The folowing code is written in Python 3                                  #
 # It uses port 1012 of fritzbox routers to read incoming and outgoing calls #
@@ -32,8 +32,7 @@ class callmonitor:
 			
 	def call_callback(self, id, action, details):
 		if (self.callback != None):
-				globals()[self.callback](id, action, details)
-				#getattr(foo, 'bar')() #I'm not shure how to handle between objects and functions (try on your own)
+				self.callback(id, action, details)
 		
 	def connect (self):
 		self.connection = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
